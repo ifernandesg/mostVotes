@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flavor Voting</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Flavor Voting System</h1>
+  <p>Enter votes as numbers separated by commas:</p>
+  <p>
+    0 - Flakes <br>
+    1 - Chocolate <br>
+    2 - Strawberry <br>
+    3 - Cream <br>
+    4 - Neapolitan
+  </p>
+  <input type="text" id="votesInput" placeholder="e.g., 0,1,2,2,4">
+  <button id="submitVotes">Submit Votes</button>
+
+  <h2>Result</h2>
+  <p id="result"></p>
+  <p id="error" style="color: red;"></p>
+
+  <script src="mostVotes.js"></script>
+</body>
+</html>
